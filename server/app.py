@@ -30,9 +30,7 @@ def bakery_by_id(id):
 def baked_goods_by_price():
     return ''
 
-@app.route('/baked_goods/most_expensive')
-def most_expensive_baked_good():
-    return ''
+
 
 if __name__ == '__main__':
     app.run(port=5555, debug=True)
